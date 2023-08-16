@@ -1,6 +1,6 @@
 import axios from "axios";
 
-const TMBD_TOKEN= import.meta.env.VITE_APP_TMBD_TOKEN;
+const TMBD_TOKEN= `${import.meta.env.VITE_APP_TMBD_TOKEN}`;
 
 const headers = {
     accept:'application/json',
