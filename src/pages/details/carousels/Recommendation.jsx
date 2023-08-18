@@ -9,7 +9,7 @@ const Recommendation = ({ mediaType, id }) => {
     );
 
     return (
-        data?.total_result>0 && <Carousel
+        data?.total_results>0 && <Carousel
             title="Recommendations"
             data={data?.results}
             loading={loading}
